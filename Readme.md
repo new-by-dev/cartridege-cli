@@ -11,7 +11,6 @@ The docker image which contains:
 #### Example: 
 ```yaml
 .docker-registry-auth:
-  extends: .common_task
   before_script:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
   after_script:
