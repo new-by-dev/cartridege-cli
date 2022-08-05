@@ -24,7 +24,7 @@ build-cartrdge:
     - cartridge build
     - cartridge pack docker --version ${CI_COMMIT_TAG}
     - docker tag my_app:${CI_COMMIT_TAG} ${CI_REGISTRY_IMAGE}:${CI_COMMIT_TAG}
-    - docker push ${CI_REGISTRY_IMAGE}/my_app:${CI_COMMIT_TAG}
+    - docker push ${CI_REGISTRY_IMAGE}:${CI_COMMIT_TAG}
   interruptible: true
   only:
     refs:
