@@ -5,7 +5,7 @@ The docker is useful for build and push docker images with cartridge during CI p
 The docker image which contains:
 - tarantool
 - cartridge-cli
-- docker-ce-clu
+- docker-ce-cli
 
 
 #### Example: 
