@@ -10,7 +10,7 @@ The docker image which contains:
 
 #### Example 1: 
 
-Gitlab runner with [docker socket binding]([https://docs.gitlab.com/runner/install/docker.html#option-1-use-local-system-volume-mounts-to-start-the-runner-container](https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#use-docker-socket-binding)
+Gitlab runner with [docker socket binding](https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#use-docker-socket-binding)
  
 ```yaml
 .docker-registry-auth:
